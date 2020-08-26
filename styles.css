@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+header {
+	height: 71px;
+}
+
+nav {
+	background-color: rgba(0, 32, 78, 1);
+}
+
+footer {
+	background-color: rgba(0, 32, 78, 1);
+}
+
+.disclaimer {
+	font-size: 12px;
+}
+
+.social-links a {
+	font-size: 30px;
+	color: white;
+	margin: 5px;
+}
+
+.social-links a:hover {
+	color:#969696;
+}
+
+.airtable-embed {
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	margin: 0px;
+	padding: 0px;
+}
+

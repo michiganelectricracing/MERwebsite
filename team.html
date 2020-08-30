@@ -1,107 +1,622 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+
+	<head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link href="styles.css" rel="stylesheet" type="text/css">
-	
-	<script src="https://kit.fontawesome.com/716128eb66.js" crossorigin="anonymous"></script>
-	
-	<title>Team</title>
-</head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Michigan Electric Racing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="University of Michigan Electric Racing" />
+	<meta name="keywords" content="Michigan Electric Racing, electric racing, mer, mert, michigan, umich, umich racing, umich electric racing, hybrid, umich hybrid racing, formula electric" />
 
-<body class="js-focus-visible">
-	
-	<!-- Header -->
-	<header>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 
-    	<!-- Navigation Menu -->
-  		<nav class="navbar navbar-expand-md navbar-dark fixed-top container-fluid">
-			<div class="container-lg">
-				<a class="navbar-brand" href="index.html">
-					<img src="images/MER Logo/MER_Logo_Dark_Background.svg" width="150" height="45" alt="MER">
-				</a>
-			
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    				<span class="navbar-toggler-icon"></span>
-  				</button>
-			
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    				<ul class="navbar-nav ml-auto">
-      					<li class="nav-item">
-        					<a class="nav-link" href="index.html">HOME</a>
-      					</li>
-						<li class="nav-item active">
-        					<a class="nav-link" href="team.html">TEAM<span class="sr-only">(current)</span></a>
-      					</li>
-						<li class="nav-item">
-        					<a class="nav-link" href="cars.html">CARS</a>
-      					</li>
-						<li class="nav-item">
-        					<a class="nav-link" href="sponsors.html">SPONSORS</a>
-      					</li>
-						<li class="nav-item">
-        					<a class="nav-link" href="about.html">WEBCAMS</a>
-      					</li>
-    				</ul>
-  				</div>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		video{
+			width: 100%;
+			height: auto;
+		}
+	</style>
+	</head>
+
+	<!-- Navbar (Style Guide https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)-->
+	<!-- set class to active it on that page -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-faded sticky-top">
+		<div class="container">
+		<!-- Team name -->
+ 		<a class="navbar-brand" href="index.html">Michigan Electric Racing</a>
+ 		<!-- Buutton -->
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<!-- Links -->
+ 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    		<ul class="navbar-nav">
+      			<li class="nav-item">
+        			<a class="nav-link" href="about.html">About</a>
+      			</li>
+      			<li class="nav-item">
+       			<a class="nav-link" href="sponsors.html">Sponsors</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link active" href="team.html">The Team</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="cars.html">The Car</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="cam.html">Webcams</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="contact.html">Contact</a>
+      			</li>
+    		</ul>
+  		</div>
+  	</div>
+	</nav>
+
+
+	<!--End Navbar -->
+
+	<!--Start Body-->
+	<body>
+		<section id="intro">
+
+			<div class = "container">
+				<div class = "head">
+					<h3>The Team</h3>
+				</div>
+				<br>
+				<!--Header for each division-->
+				<div class = "animated fadeFirst fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Captains</h4>
+							</div>
+							<div class = "row tab2">
+								<p>The team captains are responsible for maintaining team schedule, leading the technical direction of the vehicle, and organizing team level events and meetings. Captains lead team meetings, manage the team budget, and handle the technical logistics.</p>
+							</div>
+						</div>
+					<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-md-4 offset-md-2 offset-sm-1 col-sm-5 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/joesaginaw.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text"></div>
+										</div>
+								</div>
+								<p>Joseph Saginaw</p>
+							</div>
+							<div class = "col-md-4 offset-sm-1 col-sm-5 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/gracestridick.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text"></div>
+										</div>
+								</div>
+								<p>Grace Stridick</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr><br><!--End division section-->
+
+				<!--Header for each division-->
+				<div class = "animated fadeOffset4 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Vehicle Dynamics and Chassis</h4>
+							</div>
+							<div class = "row tab2">
+								<p>Vehicle Dynamics and Chassis (VDC) is responsible for most of the mechanical aspects of the vehicle design: the chassis, suspension, steering, and pedal box.  They spend many long hours on mills and lathes and do the majority of the welding for the team.</p>
+							</div>
+						</div>
+						<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-md-4 offset-md-0 offset-sm-3 col-sm-6 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/sahilsaini.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text">VDC Division Lead</div>
+										</div>
+								</div>
+								<p>Sahil Saini</p>
+							</div>
+							<div class = "col-md-8 col-12">
+								<div class = "row">
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/benbaranski.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Suspension</div>
+											</div>
+										</div>
+										<p>Benjamin Baranski</p>
+									</div>
+									
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/ethanames.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Pedalbox</div>
+											</div>
+										</div>
+										<p>Ethan Ames</p>
+									</div>
+									
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/rohandalvi.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Steering Lead</div>
+											</div>
+										</div>
+										<p>Rohan Dalvi</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/tapandangerwala.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Suspension</div>
+											</div>
+										</div>
+										<p>Tapan Dangerwala</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/paulmacdonald.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Suspension</div>
+											</div>
+										</div>
+										<p>Paul MacDonald</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<!-- <video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video> -->
+											<img src="images/people/standin2.png" class = "hvrbox-layer_bottom headshot">
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Chassis Lead</div>
+											</div>
+										</div>
+										<p>Jack Eisentrout</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<!-- <video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video> -->
+											<img src="images/people/standin2.png" class = "hvrbox-layer_bottom headshot">
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Chassis</div>
+											</div>
+										</div>
+										<p>Josh Verchleiser</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<hr><br><!--End division section-->
+
+				<!--Header for each division-->
+				<div class = "animated fadeOffset2 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Driveline</h4>
+							</div>
+							<div class = "row tab2">
+								<p>Driveline is responsible for delivering mechanical power to the ground from the motors. They conduct vehicle simulations and design and manufacture the gearboxes, corners, and brakes. Driveline has expertise in CNC machining.</p>
+							</div>
+						</div>
+						<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-md-4 offset-md-0 offset-sm-3 col-sm-6 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/maxmeyerson.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text">Driveline Division Lead</div>
+										</div>
+								</div>
+								<p>Max Meyerson<p>
+							</div>
+							<div class = "col-md-8 col-12">
+								<div class = "row">
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/rahulsaxena.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Uprights</div>
+											</div>
+										</div>
+										<p>Rahul Saxena</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/ashwinkrishna.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Mechatronics</div>
+											</div>
+										</div>
+										<p>Ashwin Krishina</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<!-- <video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video> -->
+											<img src="images/people/standin2.png" class = "hvrbox-layer_bottom headshot">
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Cooling</div>
+											</div>
+										</div>
+										<p>Max K</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<hr><br><!--End division section-->
+
+				<!--Header for each division-->
+				<div class = "animated fadeOffset3 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Composites</h4>
+							</div>
+							<div class = "row tab2">
+								<p>Composites is responsible for all vehicle aerodynamics, covering the vehicle, and cooling. They design and manufacture the front and rear wings, undertray, bulkhead, nose cone, cooling routing, and all other aerodynamic and carbon systems. In addition they are responsible for driver ergonomics, headrest, and seat.</p>
+							</div>
+						</div>
+						<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-md-4 offset-md-0 offset-sm-3 col-sm-6 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/keithcampbell.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text">Composites Division Lead</div>
+										</div>
+								</div>
+								<p>Keith Campbell</p>
+							</div>
+							<div class = "col-md-8 col-12">
+								<div class = "row">
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/glenbredin.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Bulkhead</div>
+											</div>
+										</div>
+										<p>Glen Bredin</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Undertray</div>
+											</div>
+										</div>
+										<p>Trena Datta</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<!-- <video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video> -->
+											<img src="images/people/standin2.png" class = "hvrbox-layer_bottom headshot">
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Cooling Pods</div>
+											</div>
+										</div>
+										<p>Torrence Gue</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<!-- <video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video> -->
+											<img src="images/people/standin2.png" class = "hvrbox-layer_bottom headshot">
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Human Machine Interfaces</div>
+											</div>
+										</div>
+										<p>Patrick Willard</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<hr><br><!--End division section-->
+
+				<!--Header for each division-->
+				<div class = "animated fadeOffset4 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>EV Powertrain</h4>
+							</div>
+							<div class = "row tab2">
+								<p>Electric Vehicle Powertrain is responsible for power delivery to the motors and most of the safety systems. This includes high voltage system architecture, batteries, motor controllers, and the safety loop.</p>
+							</div>
+						</div>
+						<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-md-4 offset-md-0 offset-sm-3 col-sm-6 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/jacobkromm.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text">EV Division Lead</div>
+										</div>
+								</div>
+								<p>Jacob Kromm</p>
+							</div>
+							<div class = "col-md-8 col-12">
+								<div class = "row">
+									
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/michaelreber.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Packaging</div>
+											</div>
+										</div>
+										<p>Michael Reber</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/joshknebel.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Packaging</div>
+											</div>
+										</div>
+										<p>Josh Knebel</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/spencerhansen.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Packaging</div>
+											</div>
+										</div>
+										<p>Spencer Hansen</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<!-- <video loop autoplay muted>
+												<source src="images/people/mer19/trenadatta.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video> -->
+											<img src="images/people/standin2.png" class = "hvrbox-layer_bottom headshot">
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Motors</div>
+											</div>
+										</div>
+										<p>Erik Isele</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr><br><!--End division section-->
+
+				<!--Header for each division-->
+				<div class = "animated fadeOffset5 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Controls</h4>
+							</div>
+							<div class = "row tab2">
+								<p>Controls is responsible for all low voltage wiring and vehicle software. They source and program the on-board computer, and design and install all low voltage wiring.</p>
+							</div>
+						</div>
+						<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-md-4 offset-md-0 offset-sm-3 col-sm-6 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/colinbott.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text">Controls Division Lead</div>
+										</div>
+								</div>
+								<p>Colin Bott</p>
+							</div>
+							<div class = "col-md-8 col-12">
+								<div class = "row">
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/paulyoung.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Wiring</div>
+											</div>
+										</div>
+										<p>Paul Young</p>
+									</div>
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/ethannovilla.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Wiring</div>
+											</div>
+										</div>
+										<p>Ethan Novilla</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<hr><br><!--End division section-->
+<!--
+
+				<div class = "animated fadeOffset6 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Business</h4>
+							</div>
+							<div class = "row tab2">
+								<p>Business is responsible for organizing events, creating and maintaining sponsor relationships, and the website, and creating marketing materials. They also manage the teams finances and reimburse team members.</p>
+							</div>
+						</div>
+
+						<div class = "row">
+							<div class = "col-md-4 offset-md-0 offset-sm-3 col-sm-6 offset-2 col-8 text-center">
+								<div class="hvrbox">
+									<video loop autoplay muted>
+												<source src="images/people/mer19/.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+										<div class="hvrbox-layer_top">
+											<div class="hvrbox-text">Business Division Lead</div>
+										</div>
+								</div>
+								<p></p>
+							</div>
+							<div class = "col-md-8 col-12">
+								<div class = "row">
+
+									<div class = "col-md-3 col-sm-4 col-6 text-center">
+										<div class="hvrbox">
+											<video loop autoplay muted>
+												<source src="images/people/mer19/mokshkarira.mp4" type="video/mp4" class = "hvrbox-layer_bottom headshot">
+											</video>
+											<div class="hvrbox-layer_top">
+												<div class="hvrbox-text">Compositites</div>
+											</div>
+										</div>
+										<p>Moksh Karira</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+				<hr><br><!--End division section-->
+
+				<div class = "animated fadeOffset7 fadeIn">
+					<div class = "animated fadeIn slideInRight slideTeam">
+						<div class = "head">
+							<div class = "row tab1">
+								<h4>Faculty Advisor</h4>
+							</div>
+							<div class = "row tab2">
+								<div class = "col-md-4 col-12">
+									<p>Heath Hofmann<br> 
+									<i>E-mail: </i> hofmann@umich.edu<br>
+									<i>Address: </i> 4116 EECS<br>
+									<i>Phone: </i> (734) 647-1107</p>
+									</p>
+								</div>
+								<div class = "col-md-8 col-12">
+									<p><i>Title: </i> Associate Professor<br> 
+									<i>Division: </i> Electrical and Computer Engineering (ECE)<br>
+									<i>Degree: </i> Ph.D. UC-Berkeley<br>
+									<i>Research Interest: </i> Power electronics and systems<br>
+									<i>Research Areas: </i> Energy Science and Engineering, Power and Energy<br>
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- Seperate row for each division -->
+						<div class = "row">
+							<div class = "col-12 text-center">
+								<iframe width="515" height="415" src="http://www.youtube.com/embed/pLI3MjvOb7I" frameborder="0" allowfullscreen align="center"></iframe>
+								<p>Heath Hofmann</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr><br><!--End division section-->
+
+			<br><br>
 			</div>
-  		</nav>
-	</header>
+		</section>
 
-    <!-- Main Content -->
-    <main>
-  			<div class="container-lg p-0">
-    			<img class="img-fluid" src="images/Team Photos/DSC08705.jpg">
-  			</div>
-	</main>
-    <!-- End Main Content -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
 
-    <!-- Footer -->
-	<footer class="container-fluid text-light py-3">
-		<div class="container-md">
-			<div class="row">
-				<div class="col-md-3 px-0 py-lg-3 text-center">
-					<h5>Michigan Electric Racing</h5>
-				</div>
-				<div class="col-md-5 py-lg-2 text-center">
-					2603 Draper Dr.
-					Ann Arbor, MI
-					<a href="mailto:">michiganelectricracing@umich.edu</a>
-				</div>
-				<div class="col-md-3 px-0 pb-2 py-lg-2 text-center social-links">
-					<a href="#" class="text-decoration-none">
-						<i class="fab fa-twitter"></i>
-					</a>
-					<a href="#" class="text-decoration-none">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="#" class="text-decoration-none">
-						<i class="fab fa-youtube"></i>
-					</a>
-					<a href="#" class="text-decoration-none">
-						<i class="fab fa-instagram"></i>
-					</a>
-				</div>
-				<div class="col-md-1 col-2 col-sm-2 p-2 mx-auto my-n2">
-					<img class="img-fluid mx-auto" src="images/2019 Sponsor Logos/2color-transparentbg.png">
-				</div>
-			</div>
-			<div class="row mt-1">
-				<div class="col text-center disclaimer">
-					Michigan Electric Racing is a student organization at the University of Michigan. Michigan Electric Racing is a registered 501C3 non-profit.
-					<br>
-					Copyright Michigan Electric Racing © 2020. All rights reserved.
-				</div>
-			</div>
-		</div>
-    </footer>
-	
-	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
 </html>
